@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+}
+h1 {
+    font-size: 54px;
+    color: greenyellow;
+    cursor: pointer;
+}
+h1:hover{
+    color: black;
+}
+h2, h3{
+    color: green;
+}
+h2 {
+    size: 40px;
+}
+p {
+    font-size: 24px;
+}
+img {
+    border-radius: 20px;
+}
+.presentacion {
+    margin-right: 370px;
+    margin-left: 370px;
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 15px;
+
+}

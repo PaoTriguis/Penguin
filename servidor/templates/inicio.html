@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for ('static', filename= 'estilos.css') }}">
+    <title>Paola Trigüis</title>
+</head>
+<body>
+    <h1>Hola Penguins!</h1>
+    <p>Hola, soy el perro fachero del bootcamp de Penguin</p>
+    <img src="{{ url_for ('static', filename= 'lentes_3.jpg') }}" alt="perrito con lentes">
+    <h2>Mi nombre es Paola</h2>
+    <section class="presentacion">
+    <h3>Y estoy en Penguin porque quiero aprender herramientas que me permitan llegar e impactar la vida de las personas a través de la tecnología</h3>
+    </section>
+    <a href="{{ url_for ('contacto') }}">Contacto</a>
+</body>
+</html>
